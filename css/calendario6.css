@@ -1,0 +1,139 @@
+/*Estilo Calendario*/
+.responsive-calendar .controls {
+  text-align: center;
+}
+.responsive-calendar .controls a {
+  cursor: pointer;
+}
+.responsive-calendar .controls h4 {
+  display: inline;
+}
+.responsive-calendar .day-headers,
+.responsive-calendar .days {
+  font-size: 0;
+}
+.responsive-calendar .day {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  width: 14.285714285714286%;
+  text-align: center;
+  z-index: 1
+}
+.responsive-calendar .day a {
+  color: #000000;
+  display: block;
+  cursor: pointer;
+  padding: 20% 0 20% 0;
+  z-index: 1
+}
+.responsive-calendar .day a:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+.responsive-calendar .day.header {
+  border-bottom: 1px gray solid;
+}
+.responsive-calendar .day.active a {
+  background-color: #F86515;
+  color: #ffffff;
+}
+.responsive-calendar .day.active .not-current {
+  background-color: #8fcaef;
+  color: #ffffff;
+}
+.responsive-calendar .day.active .not-current:hover {
+  background-color: #bcdff5;
+}
+.responsive-calendar .day.not-current a {
+  color: #ddd;
+  z-index: 0;
+}
+.responsive-calendar .day .badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 0;
+}
+/*Fin Estilo Calendario*/
+
+/* Estilo Botones Edicion Actividades*/
+#Opciones{
+  text-align: center;
+}
+.btn-glyphicon { 
+  padding:8px; 
+  background:#ffffff; 
+  margin-right:4px; 
+}
+.icon-btn { 
+  padding: 1px 15px 3px 2px; 
+  border-radius:50px;
+}
+/*Fin Botones Edicion Actividades*/
+/*pop ups*/
+.responsive-calendar{
+    width: 100%;
+}
+.pop-up{
+  display: none;
+  box-sizing: border-box;
+  z-index: 2147483647;
+  position: fixed;
+  height: 300%;
+  margin-left: -50%;
+  text-align: center;
+  overflow-y: scroll;
+  text-overflow: ellipsis;
+  border-radius: 5px;
+  border:1px solid silver;
+  width:200%;
+  top:1em;
+  -moz-animation-name: q;
+  -moz-animation-duration: .4s;
+  -webkit-animation-name: q;
+  -webkit-animation-duration: .4s;
+  animation-name: q;
+  animation-duration: .4s;
+}
+@-moz-keyframes q{
+    0%{height: 0%;}
+    25%{height: 50%;}
+    50%{height: 100%;}
+    75%{height: 150%;}
+    100%{height: 200%;}
+}
+@-webkit-keyframes q{
+    0%{height: 0%;}
+    25%{height: 50%;}
+    50%{height: 100%;}
+    75%{height: 150%;}
+    100%{height: 200%;}
+}
+@keyframes q{
+    0%{height: 0%;}
+    25%{height: 50%;}
+    50%{height: 100%;}
+    75%{height: 150%;}
+    100%{height: 200%;}
+}
+.pop-up img{
+  width: 100%;
+}
+.pop-up h4{margin-top: 0}
+.pop-up:hover{
+    display:block;
+}
+.active:hover .pop-up{
+    display:block;
+    text-align: center;
+}
+.pop-up{
+  background: black;
+  color: #F86515;
+  font-weight: bolder;
+}
+.container{width: 100%}
+.responsive-calendar .day:hover{
+    z-index: 4;
+}

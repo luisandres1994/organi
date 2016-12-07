@@ -1,0 +1,24 @@
+/* Color filas*/
+td, th, tr {
+	text-align: center;
+}
+.fb{
+	background-color: #58ACFA;
+}
+.tw{
+	background-color: #A9D0F5;
+}
+.ig{
+	background-color: #F7819F;
+}
+.ytb{
+	background-color: #FD3F3F;
+}
+.cabecera{
+	background-color: #BDBDBD;
+}
+#Opciones{
+  text-align: center;
+}
+.btn-glyphicon { padding:8px; background:#ffffff; margin-right:4px; }
+.icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
