@@ -1,0 +1,47 @@
+#create-account{
+	width: 100%;
+}
+#create-account form input{
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+}
+#create-account form input[type="submit"]{
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+}
+#create-account b{
+	margin: 0px;
+	padding: 0px;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	margin-right: 0px!important;
+}
+@media (min-width: 1001px){
+	#create-account br{display: none;}
+	section#create-account{padding: 4em;height: 2em;padding-top: 2em;}
+	#create-account b{display:inline-block;width: 50%;float: left;}
+	#create-account form{
+		position: static;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		width: 49%;
+		float: right;
+		justify-content: space-around;
+	}
+	#create-account form input{
+		display: inline-block;
+		padding: .5em;
+	}
+}
+@media (max-width: 1000px){
+	#create-account{padding: 2em 4em;}
+	#create-account{text-align: center;}
+	#create-account b,#create-account form input{
+		width: 80%;
+	}
+	#create-account b{display: block;}
+}

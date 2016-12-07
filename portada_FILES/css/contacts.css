@@ -1,0 +1,52 @@
+/*
+**
+**
+**
+**
+*/
+#contacts{display: block;
+}
+#contacts form{text-align: center;}
+#contacts form *{
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+}
+#contacts form div textarea{width: 80%;}
+#contacts form div{position: relative;}
+#contacts form input[type="submit"]{
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+}
+#contacts form input{width: 80%}
+#twitter{
+	/*background-image:url(http://tongagh.com/img/news/read_sarkodie_shatta_wale_samini_stonebwoy_and_wanlovs_first_ever_tweets.png);
+	background-repeat: repeat;*/
+}
+#contacts{width: 100%;}
+
+#anuncio{
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background:linear-gradient(45deg,black 0%,#333 50%,black 100%);*/
+}
+
+/*
+@media (min-width: 1001px){
+	#contacts form{float: left;width: 50%;text-align: center;}
+	#twitter{
+		display: block;
+		float: right;
+		width: 49%;
+		text-align: center;
+		border-left: 1px solid #00a4e4;
+	}
+}
+@media (max-width: 1000px){
+	#contacts form{}
+	#twitter{}
+}*/

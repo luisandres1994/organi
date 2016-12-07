@@ -1,0 +1,69 @@
+#carousel{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	position: relative;
+	color: white;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: block;
+	white-space: nowrap;
+	z-index: 2;
+}
+#la,#ra{
+	opacity: .6;
+	position: absolute;
+	height: 200px;
+	line-height: 0;
+	font-size: 100px;
+	-webkit-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-o-transform: translateY(50%);
+	transform: translateY(50%);
+	cursor: pointer;
+	z-index: 3;
+	color: white;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#ra{right: 0px;}
+#carousel > div{display: inline-block;height: 100%;margin-left: -4px;overflow: hidden;}
+#carousel div img{height: 200px;width: 200px;z-index: 2;}
+#carousel div div{
+    white-space: initial;
+
+	transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+
+	height: 200px;
+	width: 200px;
+	top: 100%;
+	position:absolute;
+
+	word-wrap: break-word;
+	display:block;
+	padding: 1em;
+	padding-top: 0em;
+}
+#carousel div:hover div{
+	top:0%;
+}
+#carousel div:hover img{
+	opacity: .4;
+	transition-duration: .5s;
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	z-index: 1;
+}
+#carousel div div h3{
+    white-space: initial;
+}
