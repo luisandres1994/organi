@@ -8,7 +8,7 @@
 				<li><a href="#noticias">Noticias</a></li>
 				<li><a href="#carousel">Líderes</a></li>
 				<li><a href="#">Contáctanos</a></li>
-				<li><a href="/login">Iniciar Sesión</a></li>
+				<li><a href="sae">Iniciar Sesión</a></li>
 			</ul>
 		</nav>
 	</header>
