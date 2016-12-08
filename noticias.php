@@ -1,7 +1,7 @@
 <section id="noticias">
 			<a href="/noticias?q=nombreNoticia"><!-- Enlace a la noticia -->
 				<article class="artic">
-					<img src="portada_FILES/actividades/Charla.jpg"><br>
+					<img src="img/actividades/Charla.jpg"><br>
 					<div>
 						<h3>Article's title</h3>
 						<div>
@@ -12,7 +12,7 @@
 			</a>
 			<a href="/noticias?q=nombreNoticia"><!-- Enlace a la noticia -->
 				<article class="artic">
-					<img src="portada_FILES/actividades/concentracion.png"><br>
+					<img src="img/actividades/concentracion.png"><br>
 					<div>
 						<h3>Article's title</h3>
 						<div>
@@ -23,7 +23,7 @@
 			</a>
 			<a href="/noticias?q=nombreNoticia"><!-- Enlace a la noticia -->
 				<article class="artic">
-					<img src="portada_FILES/actividades/Pancartazo.jpg"><br>
+					<img src="img/actividades/Pancartazo.jpg"><br>
 					<div>
 						<h3>Article's title</h3>
 						<div>
@@ -34,7 +34,7 @@
 			</a>
 			<a href="/noticias?q=nombreNoticia"><!-- Enlace a la noticia -->
 				<article class="artic">
-					<img src="portada_FILES/actividades/ruedaprensa.jpg"><br>
+					<img src="img/actividades/ruedaprensa.jpg"><br>
 					<div>
 						<h3>Article's title</h3>
 						<div>
@@ -45,7 +45,7 @@
 			</a>
 			<a href="/noticias?q=nombreNoticia"><!-- Enlace a la noticia -->
 				<article class="artic">
-					<img src="portada_FILES/actividades/marcha.jpg"><br>
+					<img src="img/actividades/marcha.jpg"><br>
 					<div>
 						<h3>Article's title</h3>
 						<div>
@@ -56,7 +56,7 @@
 			</a>
 			<a href="/noticias?q=nombreNoticia"><!-- Enlace a la noticia -->
 				<article class="artic">
-					<img src="portada_FILES/actividades/firmas.jpg"><br>
+					<img src="img/actividades/firmas.jpg"><br>
 					<div>
 						<h3>Article's title</h3>
 						<div>
