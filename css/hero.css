@@ -45,7 +45,7 @@ Image credits: unsplash.com
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 6em;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -54,18 +54,18 @@ Image credits: unsplash.com
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s; 
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
 }
 .fade-carousel .carousel-inner .item.active .hero {
     opacity: 1;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s;    
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
 }
 
 /********************************/
@@ -97,7 +97,7 @@ Image credits: unsplash.com
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
   height: 100vh;
@@ -106,7 +106,7 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(http://www.2001.com.ve/image_articulos/9b856e27107914264279f4ceb18d5d08.jpg); 
+  background-image: url(http://www.2001.com.ve/image_articulos/9b856e27107914264279f4ceb18d5d08.jpg);
 }
 .fade-carousel .slides .slide-2 {
   background-image: url(http://unidadvenezuela.org/site/wp-content/uploads/2016/04/logo_VP_comunicado.jpg);
@@ -119,8 +119,8 @@ Image credits: unsplash.com
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+    .hero { width: 980px; }
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
+    .hero h1 { font-size: 4em; }
 }
