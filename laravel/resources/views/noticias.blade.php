@@ -1,4 +1,5 @@
-<section id="noticias">
+
+        <section id="noticias">
 			<a href="/noticias?q=nombreNoticia"><!-- Enlace a la noticia -->
 				<article class="artic">
 					<img src="img/actividades/Charla.jpg"><br>
